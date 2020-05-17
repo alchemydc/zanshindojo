@@ -2304,6 +2304,22 @@ ul#countdown li {
 		text-align: right;
 	}
 
+	.bonsai {
+	background-image: url('../images/bonsai.png');
+	background-repeat:no-repeat;
+background-position: center center;
+background-size: cover;
+	height:300px;
+	display: inline;
+	top:40px;
+    position: relative;
+    margin: -11px 29px 0 0;
+    width: 52%;
+    float: right;
+	right: 34px;
+	z-index:2;
+}
+
 }
 
 @media only screen and (min-width: 480px) {
@@ -2333,6 +2349,9 @@ ul#countdown li {
 		-ms-flex: 0 0 420px;
 		flex: 0 0 420px;
 	}
+	
+
+
 }
 
 
@@ -2365,6 +2384,7 @@ ul#countdown li {
     margin-left: 0;
     margin-top: 10px;
 	}
+	
 }
 
 @media only screen and (min-width: 24em) {
@@ -2431,3 +2451,4 @@ ul#countdown li {
 	}
 
 }
+
