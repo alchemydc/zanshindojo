@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Zanshin Dojo:  Celo Staking</title>
+    <title>Zanshin Dojo: Celo Staking</title>
     <link rel="icon" href="assets/icons/favicon.png" type="image/png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -62,31 +62,8 @@
                             </div>
                         </div>
                         <div class="hero-form flx_2">
-                            <!--<form id="contactForm" data-toggle="validator" class="shake">
-                                <div class="row">
-                                    <div class="form-group col-sm-12">
-                                        <label for="name" class="h4">Company*</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Company Name"
-                                            required data-error="Name is required">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="form-group col-sm-12">
-                                        <label for="email" class="h4">Email*</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email address"
-                                            required>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="message" class="h4 ">Message*</label>
-                                    <textarea id="message" class="form-control" rows="5"
-                                        placeholder="Enter your message" required></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                                <button type="submit" id="form-submit" class="btn-action">Request Demo</button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
-                            </form>-->
+                            <!--<div class="bonsai"></div>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -95,7 +72,7 @@
 
             <!-- YD Custom Feature Section -->
             <div class="yd_ft_cst" id="howto">
-                <div class="container-m">
+                <div class="container-s">
                     <div class="row">
                         <div class="flex-inner">
                             <div class="f-text">
@@ -103,15 +80,47 @@
                                     <div class="split_text_inner">
                                         <h4>USING CELOCLI</h4>
                                         <h2>1. Lock your Celo Gold</h2>
-                                        <p>This is necessary to reserve your gold for voting.
+                                        <p>Celo Gold must be locked before it can be used to vote.
                                         </p>
-                                        <pre><code class="language-css">celocli lockedgold:lock --from &lt;YOUR_ADDRESS&gt; --value &lt;AMOUNT_TO_LOCK&gt;</code></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <pre><code class="language-css">celocli lockedgold:lock --from &lt;YOUR_ADDRESS&gt; --value &lt;AMOUNT_TO_LOCK&gt;</code></pre>
+                    <div class="row">
+                        <div class="flex-inner">
+                            <div class="f-text">
+                                <div class="split_text">
+                                    <div class="split_text_inner">
                                         <h2>2. Vote for the Zanshin Dojo group</h2>
-                                        <p>Cauz we rock.</p>
-                                        <pre><code class="language-css">celocli election:vote --for 0x8eb004dad9397b8f23e1279905c584920000756d --from &lt;YOUR_ADDRESS&gt; --value &lt;NUM_VOTES&gt;</code></pre>
+                                        <p>Voting will earn you 6% on your locked gold.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <pre><code class="language-css">celocli election:vote --for 0x8eb004dad9397b8f23e1279905c584920000756d --from &lt;YOUR_ADDRESS&gt; --value &lt;NUM_VOTES&gt;</code></pre>
+                    <div class="row">
+                        <div class="flex-inner">
+                            <div class="f-text">
+                                <div class="split_text">
+                                    <div class="split_text_inner">
                                         <h2>3. After 24 hours, activate your votes</h2>
-                                        <p>You can click refresh as many times as you want, we won't tell.</p>
-                                        <pre><code class="language-css">celocli election:activate --from &lt;YOUR_ADDRESS&gt;</code></pre>
+                                        <p>Technically, you can activate your vote at the start of the next epoch.
+                                            See <a href="https://thecelo.com" target="celoOut">TheCelo</a> to see when the new epoch will begin</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <pre><code class="language-css">celocli election:activate --from &lt;YOUR_ADDRESS&gt;</code></pre>
+                    <div class="row">
+                        <div class="flex-inner">
+                            <div class="f-text">
+                                <div class="split_text">
+                                    <div class="split_text_inner">
                                         <h2>4. Done!</h2>
                                     </div>
                                 </div>
@@ -124,7 +133,7 @@
 
             <!-- YD Flex Single Feature Section -->
             <div class="ft_single">
-                <div class="container-s">
+                <div class="container-m">
                     <div class="yd_flex">
                         <div class="yd_flex_3">
                             <div class="flex_content">
@@ -207,13 +216,13 @@
                                     <h6>Sensei, Zanshin Dojo</h6>
                                     <p>David has spent his entire career as a cyber security practitioner. He is
                                         presently responsible for operations at the Electric Coin Company, the
-                                        organization that brought the Zcash
-                                        cryptocurrency to the world.</p>
+                                        organization that brought the Zcash cryptocurrency to the world.</p>
                                     <p>Previously, he served as the Chief Security Officer
                                         at SendGrid, founding CEO at
                                         JumpCloud, and founder at Electric Alchemy.
                                     </p>
-                                    <h6><a target="_blank" rel="noopener noreferrer" href="https://keybase.io/alchemydc">@alchemydc on Keybase</a></h6>
+                                    <h6><a target="_blank" rel="noopener noreferrer"
+                                            href="https://keybase.io/alchemydc">@alchemydc on Keybase</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -229,7 +238,8 @@
                         <div class="cta_box_inner">
                             <div class="col-sm-12 col-md-12">
                                 <h4>Earn 6% on your Celo Gold</h4>
-                                <h2><a class="nav-link js-scroll-trigger" href="#howto">Vote for Zanshin Dojo today</a></h2>
+                                <h2><a class="nav-link js-scroll-trigger" href="#howto">Vote for Zanshin Dojo today</a>
+                                </h2>
                             </div>
                         </div>
                     </div>
