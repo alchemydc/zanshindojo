@@ -412,10 +412,13 @@ body {
 }
 
 .hero {
-	background: linear-gradient(to right, rgba(243, 243, 245, 0), rgba(243, 243, 245, 0)), url(../images/hero-bg.png) no-repeat center center;
+	background: linear-gradient(to right, rgba(243, 243, 245, 0), rgba(243, 243, 245, 0)), url(../images/zd-logo.png) no-repeat center center;
 	background-size: cover;
 	background-position: left;
 }
+
+
+
 
 .hero-content {
 	max-width: 600px;
@@ -579,13 +582,31 @@ body {
 	margin-top: 15px;
 }
 
-.hero2 .hero-form #contactForm {
-	background: #FFFFFF;
-	padding: 35px;
-	border-radius: 10px;
-	max-width: 380px !important;
-	margin: 0 auto;
-	float: none;
+.hero2 .zdlogo {
+background: url(../images/zd-logo.png) no-repeat center center;
+    background-size: contain;
+    /* background-position: right; */
+    padding: 35px;
+    border-radius: 0px;
+    max-width: 380px !important;
+    margin: 0 auto;
+    float: left;
+    min-width: 100%;
+	min-height: 400px;
+}
+@media only screen and (max-width: 420px) {
+	.hero2 .zdlogo {
+background: url(../images/zd-logo.png) no-repeat center center;
+    background-size: contain;
+    /* background-position: right; */
+    padding: 35px;
+    border-radius: 0px;
+    max-width: 380px !important;
+    margin: 0 auto;
+    float: left;
+    min-width: 100%;
+	min-height: 200px;
+}
 }
 
 .hero2 .hero-form #contactForm label {
