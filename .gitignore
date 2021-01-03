@@ -1,2 +1,4 @@
 *.code-workspace
 *.psd
+assets/.DS_Store
+.DS_Store
