@@ -84,19 +84,6 @@ jQuery(function($) {
 
   new WOW().init();
 
-
-  /* ------ Countdown ----- */
-
-  $('#countdown').countdown({
-      date: '12/12/2020 12:00:00',
-      offset: +2,
-    day: 'Day',
-    days: 'Days'
-  }, function () {
-      alert('Done!');
-  });
-
-
 /*----- Preloader ----- */
 
     $(window).load(function() {
