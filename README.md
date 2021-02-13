@@ -1,2 +1,2 @@
 # zanshindojo
-public www for zanshindojo.org
+static public www for [zanshindojo.org](https://zanshindojo.org)
