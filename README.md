@@ -1,2 +1,2 @@
 # zanshindojo
-public www
+public www for zanshindojo.org
